@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>detail</title>
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#Hheader").load("header.html")
+            /* id 지정을 통해서도 가능합니다. 
+             $("#header").load("header.html #navbar")
+             */
+        });
+        $(document).ready(function() {
+            $("#Hfooter").load("footer.html")
+        });
+    </script>
+</head>
+
+<body class="noto">
+    <div id="Hheader"></div>
+    <hr class="all">
+    <div class="clear_float">asdfasdf<br><br><br></div>
+    <div class="main_content">
+        <div class="imgview">
+            <img src="res/B_IMG.png" alt="" class="bigimg">
+            <img src="res/S_IMG.png" alt="" class="smallimg1">
+            <img src="res/S_IMG%202.png" alt="" class="smallimg1">
+
+        </div>
+        <div class="detailview">
+            <div class="detailhead">
+               <h3>이케아 조명 탁상 스탠드 팔아요</h3>
+                <hr class="all1">
+                <div class="detailname">판매자 : <!--판매자명--> 한지희</div>                
+            </div>
+            <table class="detailtable">
+                <tr>
+                    <td>가격</td>
+                    <td class="detail_price">70,000원</td>
+                </tr>
+                <tr>
+                    <td>상품상태</td>
+                    <td>새상품</td>
+                </tr>
+                <tr>
+                    <td>교환여부</td>
+                    <td>교환 불가능</td>
+                </tr>
+                <tr>
+                    <td>배송비</td>
+                    <td>배송비 별도</td>
+                </tr>
+                <tr>
+                    <td>거래지역</td>
+                    <td>서울특별시 강서구 내발산동</td>
+                </tr>
+            </table>
+            <br>
+            <input type="button" value="바로구매" class="btn blackbtn ">
+            <input type="button" value="연락하기" class="btn whitebtn">
+            <input type="button" value="관심상품" class="btn whitebtn">
+            
+            <hr class="all1">
+            <div class="viewreview">판매자 평가 보기</div>
+            
+            
+            
+            <br>
+        </div>
+<div class="clear_float">zasdfasdfasf</div>
+        <div class="main_content pad">
+            <br>상품정보
+            <hr class="all1">
+            이케아에서 사고 얼마 지나지 않아서 이사를 했어요.<br>
+            생활기스밖에 없는 제품입니다!
+</div>
+        </div>
+    
+    <div id="Hfooter"></div>
+</body>
+
+</html>
