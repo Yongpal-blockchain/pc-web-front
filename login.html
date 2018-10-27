@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#Hheader").load("header.html")
+            /* id 지정을 통해서도 가능합니다. 
+             $("#header").load("header.html #navbar")
+             */
+        });
+        $(document).ready(function() {
+            $("#Hfooter").load("footer.html")
+        });
+    </script>
+</head>
+
+<body>
+    <div id="Hheader"></div>
+
+    <hr class="all">
+    <div class="main_content">
+        <div class="logbox">
+            <div class="innerbox">
+                <h4>MEMBER LOGIN</h4>
+                <form action="loginProc.html" name="login" id="login">
+                   <img src="res/profile.png" alt="">
+                    <input type="text" id="id" name="id"
+                    placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID">
+                    <br>
+                    <img src="res/lock.png" alt="">
+                    <input type="password" id="pw" name="pw"
+                    placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password">
+                    <br>
+
+
+
+                    <input type="submit" id="loginbtn" value="LOGIN" />
+                </form>
+                <!-- 미안 존나귀찮음 -->
+                <a href="new_account.html"><span class="logtext ">New Account</span></a>
+                <a href="find_pw.html"><span class="logtext">Forget Password</span></a>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <div id="Hfooter"></div>
+</body>
+
+</html>

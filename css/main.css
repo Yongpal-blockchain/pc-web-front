@@ -1,6 +1,21 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css); 
 /*Helvetica Neue, Noto Sans KR*/
 
+::placeholder {
+    color: #e0e0e0;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #e0e0e0;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #e0e0e0;
+}
+
+
+
 .left_align {
  text-align: left;
 }
@@ -257,3 +272,84 @@ footer {
 }
 
 
+
+.logbox {
+    width:420px;
+    height:350px;
+    margin:150px auto;
+    border:0.5px solid #dfdfdf;
+    
+    background-color: #f8f8f8;
+    
+}
+
+.innerbox {
+    margin:30px auto;
+    width:250px;
+    height:250px;
+}
+
+#loginbtn {
+    width:100%;
+    height: 60px;
+    border:1px solid black;
+    color:white;
+    background-color:black;
+    font-size:13pt;
+    font-family: "Noto Sans KR";
+}
+
+.innerbox h4 {
+    text-align-last: center;
+    font-family: "Noto Sans KR";
+    margin: 40px 0px 0px 0px;
+}
+
+.logul {
+    font-family: "Noto Sans KR";
+    font-size: 10pt;
+}
+.logul li{
+    margin:0px 17px;
+}
+
+.logtext {
+    font-family: "Noto Sans KR";
+    font-size: 7pt;
+    margin:20px 28px;
+}
+
+
+
+#login input[type='text']{
+    width:100%;
+    border-top:1px solid #f8f8f8;
+    border-right:1px solid #f8f8f8;
+    border-left:1px solid #f8f8f8;
+    
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    height: 30px;
+    position: relative;
+    top:-20px;
+}
+
+#login input[type='password']{
+    width:100%;
+    border-top:1px solid #f8f8f8;
+    border-right:1px solid #f8f8f8;
+    border-left:1px solid #f8f8f8;
+    
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    height: 30px;
+    display: inline;
+    position: relative;
+    top:-20px;
+}
+
+
+#login img{
+    margin:20px 0px 0px 0px;
+    display: inline;
+}
