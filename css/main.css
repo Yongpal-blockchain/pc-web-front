@@ -1,0 +1,165 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css); 
+/*Helvetica Neue, Noto Sans KR*/
+
+.left_align {
+ text-align: left;
+}
+.main_content {
+    margin: auto;
+    width:950px;
+}
+
+
+.menu_list ul{
+    display: inline;
+    margin: 0;
+}
+.menu_list li{
+    margin:0px 5px;
+    display: inline;
+}
+
+
+a{
+    font-style: none;
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    font-style: none;
+    color:gray;
+    text-decoration: none;
+}
+a:active{
+    font-style: none;
+    color:gray;
+    text-decoration: none;
+}
+a:visited{
+    font-style: none;
+    color:gray;
+    text-decoration: none;
+}
+
+
+
+
+.header {
+    font-size: 10pt;
+}
+
+.helvetica {
+    font-family:'Helvetica Neue';
+}
+.noto {
+    font-family: 'Noto Sans KR';
+}
+#head {
+    font-size:13px;    
+}
+
+.left_float {
+    float:left;
+}
+
+.right_float {
+    float: right;
+}
+
+
+
+
+
+
+.clear_float {
+    float: clear;
+    visibility: hidden;
+}
+
+#searchbox {
+    overflow: auto;
+    margin-left: 755px;
+}
+
+
+
+#sns img{
+    margin:0px 4px;
+}
+
+
+
+#logos {
+    position: relative;
+    bottom: -6;
+}
+
+.main_content h1{
+    text-align: center;
+    font-family: 'Helvetica Neue','Helvetica';
+}
+
+body {
+    margin:0px;
+    max-width: 100%;
+}
+
+header {
+    float: clear;
+    display: block;
+}
+
+.all{
+    border:0.5px solid #d7d7d7;
+    margin:10px 0px;
+    width:100%;
+    min-width: 950px;
+}
+
+#searchbox input.text {
+    -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     border-radius: 5px;
+     border:1px solid #f5f5f5;
+     background-color:#f5f5f5;
+     height:25px;
+     padding:4px;
+     padding-right:28px;
+     color:#4a4a4a;
+     float:left;
+}
+
+#searchbox input.button {
+    border:0;
+    padding:0;
+    margin:0 0 0 -24px;
+    width:24px;
+    height:24px;
+    background:transparent url('res/search.png') center center no-repeat;
+    float:left;
+}
+
+nav {
+    text-align: center;
+}
+
+#navs li{
+    margin:0px 20px;
+}
+
+.banner {
+    width: 100%;
+}
+
+#banners {
+    width: 100%;
+    min-width: 950px;
+}
+
+#hams {
+    margin:0px 50px 0px 0px;
+}
+
+#navs {
+    margin-right: 65px;
+}
