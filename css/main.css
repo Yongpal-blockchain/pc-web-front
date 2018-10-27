@@ -1,5 +1,5 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css); 
-/*Helvetica Neue, Noto Sans KR*/
+/*Helvetica Neue, s Sans KR*/
 
 .left_align {
  text-align: left;
@@ -162,4 +162,75 @@ nav {
 
 #navs {
     margin-right: 65px;
+}
+
+
+
+.pc_img {
+    width:200px;
+    height: 200px; 
+}
+
+.pc_name {
+     font-family:'Noto Sans KR';
+    font-size:8pt;
+    color: #a5a5a5;
+}
+
+.pc_underbox {
+    padding:10px;
+    margin:0px;
+}
+.pc_underbox p{
+    margin:0px;
+}
+
+.product_content {
+    width: 200px;
+    height: 280px;
+    border: 0.5px solid #b7b6b6;
+}
+
+.pc_pname {
+    font-family:'Noto Sans KR';
+    font-size:11pt;
+    padding-top: 2px;
+}
+
+.pc_price {
+    font-family:'Noto Sans KR';
+    font-size:9pt;
+ display: inline;   
+}
+
+.pc_new {
+    color:#eb4954;
+    border:0.5px solid #eb4954;
+    display: inline-block;
+    font-size: 11px;
+    padding:1px 8px 1px 8px;
+    float: right;
+}
+
+.grid_content {
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-template-rows: 340px 340px;
+}
+
+.product_intro {
+    margin-top:50px;
+}
+
+.short_content {
+    
+}
+
+.center_align {
+    text-align: center;
+}
+
+footer {
+    font-family: "Noto sans";
+    background-color: #d4d6d9; 
 }
