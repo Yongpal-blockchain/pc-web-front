@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>review</title>
+    
+     <link rel="stylesheet" href="css/main.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#Hheader").load("header.html")
+            /* id 지정을 통해서도 가능합니다. 
+             $("#header").load("header.html #navbar")
+             */
+        });
+        $(document).ready(function(){
+            $("#Hfooter").load("footer.html")
+        });
+    </script>
+    
+</head>
+<body class="noto">
+    <div id="Hheader"></div>
+    <div class="main_content">
+        <table class="review_table">
+            <tr class="firstline">
+                <th class="t_date">날짜</th>
+                <th class="t_title">제목</th>
+                <th class="t_user">거래자</th>
+            </tr>
+            <tr class="firstline">
+                <th class="t_date">날짜</th>
+                <th class="t_title">제목</th>
+                <th class="t_user">거래자</th>
+            </tr>
+            
+        </table>
+        
+        
+        
+    </div>
+    <div id="Hfooter"></div>
+</body>
+</html>
